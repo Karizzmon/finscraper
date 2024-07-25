@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "finscraper"
+version = "0.1.0"
+description = ""
+authors = ["ChiragAgg5k <110609663+ChiragAgg5k@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+pandas = "^2.2.2"
+pillow = "^10.4.0"
+pytesseract = "^0.3.10"
+pdf2image = "^1.17.0"
+opencv-python = "^4.10.0.84"
+selenium = "^4.23.1"
+imgkit = "^1.2.3"
+scikit-learn = "^1.5.1"
+matplotlib = "^3.9.1"
+tensorflow = "^2.17.0"
+torch = "^2.4.0"
+tqdm = "^4.66.4"
+torchvision = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
